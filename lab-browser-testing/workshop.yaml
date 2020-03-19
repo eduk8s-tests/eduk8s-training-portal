@@ -1,0 +1,19 @@
+apiVersion: training.eduk8s.io/v1alpha1
+kind: Workshop
+metadata:
+  name: lab-browser-testing
+spec:
+  vendor: eduk8s.io
+  title: Browser Testing
+  description: A workshop to help test browser compatibility
+  url: https://github.com/eduk8s/workshop-dashboard
+  session:
+    budget: small
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      console:
+        enabled: true
+      editor:
+        enabled: true

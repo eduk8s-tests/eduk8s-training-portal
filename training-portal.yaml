@@ -14,3 +14,8 @@ spec:
     reserved: 1
     expires: 30m
     orphaned: 5m
+  - name: lab-browser-testing
+    capacity: 3
+    reserved: 1
+    expires: 10m
+    orphaned: 3m

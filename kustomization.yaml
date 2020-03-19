@@ -4,6 +4,7 @@ kind: Kustomization
 bases:
 - github.com/eduk8s-labs/lab-k8s-fundamentals
 - github.com/eduk8s-labs/lab-octant-testing
+- lab-browser-testing
 
 resources:
 - training-portal.yaml
