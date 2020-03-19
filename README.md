@@ -1,7 +1,7 @@
 Training Portal
 ===============
 
-This repository contains sample configuration for deomnstrating the eduk8s
+This repository contains sample configuration for demonstrating the eduk8s
 training portal.
 
 Prerequisites
