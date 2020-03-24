@@ -4,6 +4,8 @@ kind: Kustomization
 bases:
 - github.com/eduk8s-labs/lab-k8s-fundamentals
 - github.com/eduk8s-labs/lab-octant-testing
+- github.com/eduk8s-tests/lab-kpack-testing
+- github.com/jupyter-on-kubernetes/lab-jupyter-on-k8s-01
 - lab-browser-testing
 
 resources:

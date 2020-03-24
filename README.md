@@ -18,6 +18,8 @@ being used are:
 
 * https://github.com/eduk8s-labs/lab-k8s-fundamentals
 * https://github.com/eduk8s-labs/lab-octant-testing
+* https://github.com/eduk8s-tests/lab-kpack-testing
+* https://github.com/jupyter-on-kubernetes/lab-jupyter-on-k8s-01
 
 Check each for any further requirements, such as installation of other
 operators, availability of certain persistent volumes types etc.
