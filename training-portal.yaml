@@ -19,6 +19,11 @@ spec:
     reserved: 1
     expires: 30m
     orphaned: 5m
+  - name: lab-jupyter-testing
+    capacity: 5
+    reserved: 1
+    expires: 30m
+    orphaned: 5m
   - name: lab-jupyter-on-k8s-01
     capacity: 5
     reserved: 1
