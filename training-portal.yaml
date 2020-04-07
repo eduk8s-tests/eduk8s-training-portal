@@ -5,16 +5,21 @@ metadata:
 spec:
   workshops:
   - name: lab-k8s-fundamentals
-    capacity: 10
+    capacity: 5
     reserved: 1
     expires: 60m
     orphaned: 5m
   - name: lab-octant-testing
-    capacity: 10
+    capacity: 5
     reserved: 1
     expires: 30m
     orphaned: 5m
   - name: lab-kpack-testing
+    capacity: 3
+    reserved: 1
+    expires: 30m
+    orphaned: 5m
+  - name: lab-podman-testing
     capacity: 3
     reserved: 1
     expires: 30m
