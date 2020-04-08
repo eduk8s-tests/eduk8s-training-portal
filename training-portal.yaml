@@ -19,6 +19,11 @@ spec:
     reserved: 1
     expires: 30m
     orphaned: 5m
+  - name: lab-container-basics
+    capacity: 3
+    reserved: 0
+    expires: 30m
+    orphaned: 5m
   - name: lab-podman-testing
     capacity: 3
     reserved: 1
@@ -26,21 +31,21 @@ spec:
     orphaned: 5m
   - name: lab-jupyter-on-k8s-01
     capacity: 3
-    reserved: 1
+    reserved: 0
     expires: 30m
     orphaned: 5m
   - name: lab-jupyter-on-k8s-02
     capacity: 3
-    reserved: 1
+    reserved: 0
     expires: 30m
     orphaned: 5m
   - name: lab-jupyter-testing
     capacity: 5
-    reserved: 1
+    reserved: 0
     expires: 30m
     orphaned: 5m
   - name: lab-browser-testing
     capacity: 3
-    reserved: 1
+    reserved: 0
     expires: 10m
     orphaned: 3m
