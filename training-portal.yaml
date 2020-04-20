@@ -27,6 +27,11 @@ spec:
   - name: lab-image-security
     capacity: 3
     reserved: 0
+    expires: 45m
+    orphaned: 5m
+  - name: lab-docker-testing
+    capacity: 3
+    reserved: 0
     expires: 30m
     orphaned: 5m
   - name: lab-podman-testing

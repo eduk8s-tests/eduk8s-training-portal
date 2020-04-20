@@ -7,6 +7,7 @@ bases:
 - github.com/eduk8s-tests/lab-kpack-testing
 - github.com/eduk8s-labs/lab-container-basics
 - github.com/eduk8s-labs/lab-image-security
+- github.com/eduk8s-tests/lab-docker-testing
 - github.com/eduk8s-tests/lab-podman-testing
 - github.com/jupyter-on-kubernetes/lab-jupyter-testing
 - github.com/jupyter-on-kubernetes/lab-jupyter-on-k8s-01
