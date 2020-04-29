@@ -27,7 +27,12 @@ spec:
   - name: lab-image-security
     capacity: 3
     reserved: 0
-    expires: 45m
+    expires: 60m
+    orphaned: 5m
+  - name: lab-python-containers
+    capacity: 3
+    reserved: 0
+    expires: 90m
     orphaned: 5m
   - name: lab-docker-testing
     capacity: 3
